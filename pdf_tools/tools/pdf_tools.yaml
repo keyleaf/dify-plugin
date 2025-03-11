@@ -1,0 +1,29 @@
+identity:
+  name: pdf_tools
+  author: keyleaf
+  label:
+    en_US: pdf_tools
+    zh_Hans: pdf_tools
+    pt_BR: pdf_tools
+description:
+  human:
+    en_US: tools around pdf
+    zh_Hans: tools around pdf
+    pt_BR: tools around pdf
+  llm: tools around pdf
+parameters:
+  - name: pdf_file
+    type: file
+    required: true
+    label:
+      en_US: PDF File
+      zh_Hans: pdf文件
+      pt_BR: PDF File
+    human_description:
+      en_US: The pdf file to be split into images.
+      zh_Hans: 需要被拆分成图片的pdf文件。
+      pt_BR: The pdf file to be split into images.
+    form: llm
+extra:
+  python:
+    source: tools/pdf_tools.py

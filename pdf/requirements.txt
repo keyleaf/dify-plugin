@@ -1,0 +1,3 @@
+dify_plugin~=0.0.1b67
+unstructured[docx,epub,md,msg,ppt,pptx]~=0.16.1
+pdf2image==1.17.0

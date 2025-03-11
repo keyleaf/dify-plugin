@@ -1,0 +1,29 @@
+identity:
+  name: pdf_to_image
+  author: keyleaf
+  label:
+    en_US: Split the pdf to images
+    zh_Hans: 将pdf拆分成图片
+    pt_BR: Split the pdf to images
+description:
+  human:
+    en_US: A tool for split the pdf to images.
+    zh_Hans: 一个用于将pdf拆分成图片的工具。
+    pt_BR: A tool for split the pdf to images.
+  llm: A tool for split the pdf to images.
+parameters:
+  - name: pdf_file
+    type: file
+    required: true
+    label:
+      en_US: PDF File
+      zh_Hans: pdf文件
+      pt_BR: PDF File
+    human_description:
+      en_US: The pdf file to be split into images.
+      zh_Hans: 需要被拆分成图片的pdf文件。
+      pt_BR: The pdf file to be split into images.
+    form: llm
+extra:
+  python:
+    source: tools/pdf_to_image.py

@@ -1,0 +1,17 @@
+identity:
+  author: keyleaf
+  name: pdf_tools
+  label:
+    en_US: pdf_tools
+    zh_Hans: pdf_tools
+    pt_BR: pdf_tools
+  description:
+    en_US: tools around pdf
+    zh_Hans: tools around pdf
+    pt_BR: tools around pdf
+  icon: icon.svg
+tools:
+  - tools/pdf_tools.yaml
+extra:
+  python:
+    source: provider/pdf_tools.py
